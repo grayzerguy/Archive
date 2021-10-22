@@ -30,10 +30,10 @@ input {
   text-align: center;
 }
 
-input:hover {
+/* input:hover {
   border: 2px solid blueviolet;
   background-color: wheat;
-}
+} */
 
 #linesButton {
   display: flex;

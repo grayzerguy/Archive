@@ -1,0 +1,104 @@
+body {
+  background-image: url("tile.jpg");
+  display: flex;
+  justify-content: center;
+}
+
+#lines {
+  background-image: url("formbg.jpg");
+  width: 600px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  border: 1px solid gray;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  opacity: 100;
+  width: 40%;
+  height: 30px;
+  margin: 25px;
+  text-align: center;
+}
+
+input:hover {
+  border: 2px solid blueviolet;
+  background-color: wheat;
+}
+
+#linesButton {
+  display: flex;
+}
+
+.btn {
+  margin: 10px;
+  width: 150px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  margin: 10px;
+  width: 150px;
+  font-size: 24px;
+  padding: 0;
+  border: 2px dotted blueviolet;
+  background-color: yellow;
+}
+
+.noteText {
+  width: 165px;
+  height: 130px;
+  margin: 10px;
+  margin-top: 5px;
+  margin-right: 20px;
+  overflow: scroll;
+}
+
+.noteDate,
+.noteTime {
+  margin: 10px;
+}
+
+#noterow {
+  display: flex;
+  justify-content: space-around;
+  height: 1000px;
+  width: 800px;
+}
+
+.hide {
+  display: block;
+  width: 20px;
+  height: 20px;
+  opacity: 0;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.hide:hover {
+  display: block;
+  width: 20px;
+  height: 20px;
+  opacity: 100;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.note {
+  background-image: url("notebg.png");
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: fantasy;
+}

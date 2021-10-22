@@ -34,8 +34,7 @@ function create() {
   notesrow.appendChild(note); //מוסיף אותו לדיב של כל ההודעות
 
   let deletebtn = document.createElement("img");
-  deletebtn.setAttribute("class", "close"); // יש צורך לתקן את המחיקה לתת לא הוא נעלם עד ששיש הובר על הדיב של הנוט
-  deletebtn.setAttribute("aria-label", "Close");
+  deletebtn.setAttribute("class", "hide"); // יש צורך לתקן את המחיקה לתת לא הוא נעלם עד ששיש הובר על הדיב של הנוט
   deletebtn.setAttribute("src", "/img/x-square.svg"); //תמונה של כפתור המחיקה
   deletebtn.setAttribute("onclick", "deleteNote(  " + index + "  )"); // מוחק הודעה
   note.appendChild(deletebtn);
